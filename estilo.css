@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Dancing+Script:wght@700&family=Gloock&family=Kalam:wght@300;400;700&family=Kanit:wght@200&family=Pacifico&family=Righteous&family=Satisfy&family=Yellowtail&display=swap');
+*{
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* SECCION INICIO */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/Fondo1.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+/* menu lateral */
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #f58b76e8;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom:15px;
+    font-weight: bold;
+}
+/* ****** */
+
+.inicio .contenido-seccion header .nav-bar{
+    position: static;
+    background-color: #fe663c;
+    font-size:15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-shadow: 0 0 20px #fff;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 12px black;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #da5503;
+    color: #fffafa;
+    border: 1px solid #ff9138;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color: #fff;
+    background-color: #f73500;
+    box-shadow: 0 0 20px #fff;
+}
+.inicio .contenido-seccion .foto{
+    right: 200px;
+    width: 200px;
+    padding: 10px; 
+    margin: -20px; 
+    float: left;
+}
+.inicio .contenido-seccion .foto img{
+    position: absolute;  
+    top: 13%;
+    right: 3%;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 5px solid #573c05;
+       overflow: hidden;
+}
+/* estilos generales */
+.titulo-seccion{
+    font-family: 'Gloock', serif;
+    font-size: 1.5rem;
+}
+/* S Sobre mi */
+.sobremi{
+    background: url("img/fondo3.png") top left;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 30px 0 30px 0;
+    text-align: center;
+
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+    font-family: 'Gloock', serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.sobremi .contenido-seccion .especial{
+    font-family: 'Gloock', serif;
+    color: #703404;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .contenido-seccion p{
+    font-family: 'Gloock', serif;
+    max-width: 700px;
+    margin: auto;
+    color: #703404;
+}
+
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila .col ul li{
+     color: #703404;
+     list-style: none;
+}
+    .sobremi .contenido-seccion .fila .col i{
+        
+        color: #413f3f;
+       display: inline-block;
+       width: 40px;
+       height: 40px;
+       border: 2px solid #040404;
+       line-height: 40px;
+       border-radius: 50%;
+       text-shadow: 2px 0 2px rgb(11, 8, 8);
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+/* SECCION RESUMEN */
+.resumen{
+    background-image: url(img/naranja2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.resumen .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.resumen .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.resumen .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.resumen .contenido-seccion .info .col{
+    width: 45%;
+}
+.resumen .contenido-seccion .info .col .titulo{
+    background-color: #ffffff1f;
+    text-shadow: 3px 0px 3px beige;
+    width: 50%;
+    height: 50%;
+    margin: 20% ;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1.5px solid #adad9c;
+
+}
+.resumen .contenido-seccion .info .col table{
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+.resumen .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 2px dotted #616060;
+}
+.resumen .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.resumen .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.resumen .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+
+.resumen .contenido-seccion .info .col table .descripcion{
+    background-color: #ffffff1f;
+    text-shadow: 2px 0px 2px rgb(167, 167, 85);
+    width: 50%;
+    height: 50%;
+    margin: 20% ;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1.5px solid #32271f;
+}
+
+/* S Habilidades */
+*{
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    padding: 0;
+}
+.habilidades{
+    padding: 80px 0px 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/oficina.jpg");
+    background-size: cover;
+    background-attachment: static;
+    background-position: center center;
+    color: #fff;
+}
+.contenedor h1{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    justify-content: center;
+    color: #ffeb66;
+    text-decoration-line: underline;
+}
+
+	.contenedor ul p{
+        font-size: 30px;
+        font-family:'Pacifico', cursive;
+        padding:30px;
+        text-shadow: 1px 1px 1px #f6f2f2;
+        color: #a54b0b;
+         }   
+
+    .contenedor ul li{
+    list-style-type: none;
+    background-color: #ffffff1f;
+    width: 50%;
+    height: 50%;
+    margin: 0px 0px 0px 310px;
+    border-radius: 15px;
+    border: 1.5px solid #adad9c;font-size: 30px;
+    text-shadow: 1px 1px 1px #f6f2f2;
+    color: #0e0702;
+    }
+
+/* SECCION CONTACTO */
+.contacto{
+    padding: 100px 0 100px 0;
+    background-color: #f58c4b;
+    color: #e6e6e6;
+    text-shadow: 2px 0px 0px black;
+    text-align: center;
+    background-image: url(img/ondas.png);
+    background-position: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+
+/* S Responsive w d */
+@media screen and (max-width:750px){
+    
+    .inicio .contenido-seccion .foto{
+        display: none;
+        }
+    .contenedor ul li{
+         margin: 0px 20px 0px 120px;
+         
+     }
+      
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .resumen{
+        background-image: url(img/naranja2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+         text-align: center;
+    }
+    .resumen .contenido-seccion .info{
+        display: block;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 80%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}
